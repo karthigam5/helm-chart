@@ -1,13 +1,23 @@
 apiVersion: v1
 entries:
+  helloworld:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-25T02:42:18.052761781-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 31c6289e84ff3749758b996d3298b28fdad31cf7a124b0bbf4f809f939cffa80
+    name: helloworld
+    urls:
+    - helloworld-0.1.0.tgz
+    version: 0.1.0
   newchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T02:18:50.027759293-04:00"
+    created: "2020-03-25T02:42:18.053029529-04:00"
     description: A Helm chart for Kubernetes
     digest: 614da2c2291dfeed8b69dc84fbfb76366aebd9b1629566f87565f4d7cf23b0d6
     name: newchart
     urls:
     - newchart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-25T02:18:50.027193704-04:00"
+generated: "2020-03-25T02:42:18.052248578-04:00"
