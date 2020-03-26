@@ -3,21 +3,31 @@ entries:
   helloworld:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T02:42:18.052761781-04:00"
+    created: "2020-03-25T23:34:10.659053426-04:00"
     description: A Helm chart for Kubernetes
     digest: 31c6289e84ff3749758b996d3298b28fdad31cf7a124b0bbf4f809f939cffa80
     name: helloworld
     urls:
     - helloworld-0.1.0.tgz
     version: 0.1.0
+  my-nginx:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-03-25T23:34:10.659213983-04:00"
+    description: My custom nginx chart
+    digest: 8e78d13f54a65851ab0cd7c79af59b3654d1d147ee342cd9a67ea7d272daefbf
+    name: my-nginx
+    urls:
+    - my-nginx-0.4.0.tgz
+    version: 0.4.0
   newchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T02:42:18.053029529-04:00"
+    created: "2020-03-25T23:34:10.659431511-04:00"
     description: A Helm chart for Kubernetes
     digest: 614da2c2291dfeed8b69dc84fbfb76366aebd9b1629566f87565f4d7cf23b0d6
     name: newchart
     urls:
     - newchart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-25T02:42:18.052248578-04:00"
+generated: "2020-03-25T23:34:10.65840232-04:00"
