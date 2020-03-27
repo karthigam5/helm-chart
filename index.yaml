@@ -3,7 +3,7 @@ entries:
   helloworld:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T23:48:42.468717529-04:00"
+    created: "2020-03-26T23:18:54.770919806-04:00"
     description: A Helm chart for Kubernetes
     digest: 31c6289e84ff3749758b996d3298b28fdad31cf7a124b0bbf4f809f939cffa80
     name: helloworld
@@ -13,7 +13,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-03-25T23:48:42.468899203-04:00"
+    created: "2020-03-26T23:18:54.771041289-04:00"
     description: Ny custom mariadb chart
     digest: 4b271fe5af8ccfc8805396d5ade98e33631441a5b536c937aee2cce5a0a5fe4d
     name: mariadb
@@ -23,21 +23,31 @@ entries:
   my-nginx:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-03-25T23:48:42.469006433-04:00"
+    created: "2020-03-26T23:18:54.77116705-04:00"
     description: My custom nginx chart
     digest: 8e78d13f54a65851ab0cd7c79af59b3654d1d147ee342cd9a67ea7d272daefbf
     name: my-nginx
     urls:
     - my-nginx-0.4.0.tgz
     version: 0.4.0
+  mysql:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-03-26T23:18:54.77129831-04:00"
+    description: my custom mysql chart
+    digest: b633c55280e7e4c38b0229c7c2996bd9eb3df34d75017ca23b431bfc1b4aee85
+    name: mysql
+    urls:
+    - mysql-0.1.0.tgz
+    version: 0.1.0
   newchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T23:48:42.469229477-04:00"
+    created: "2020-03-26T23:18:54.771523639-04:00"
     description: A Helm chart for Kubernetes
     digest: 614da2c2291dfeed8b69dc84fbfb76366aebd9b1629566f87565f4d7cf23b0d6
     name: newchart
     urls:
     - newchart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-25T23:48:42.468106483-04:00"
+generated: "2020-03-26T23:18:54.770312773-04:00"
